@@ -75,7 +75,7 @@ const DeliveryForm: React.FC = () => {
                   <div className="flex items-center">
                     <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-primary mr-4">
                       <img 
-                        src=./nxt-delivery/founder.png" alt="Founder" class="founder-image" /> 
+                        src="./nxt-delivery/founder.png" 
                         alt="Praveen Kumar" 
                         className="w-full h-full object-cover"
                       />
@@ -200,3 +200,4 @@ const DeliveryForm: React.FC = () => {
 };
 
 export default DeliveryForm;
+
