@@ -1,4 +1,3 @@
-```jsx
 import React from 'react';
 import { Truck, Package, Clock, Shield } from 'lucide-react';
 import { motion } from 'framer-motion';
