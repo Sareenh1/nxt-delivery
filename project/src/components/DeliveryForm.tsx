@@ -75,13 +75,13 @@ const DeliveryForm: React.FC = () => {
                   <div className="flex items-center">
                     <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-primary mr-4">
                       <img 
-                        src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" 
-                        alt="Amgoth Praveen" 
+                        src=./nxt-delivery/founder.png" alt="Founder" class="founder-image" /> 
+                        alt="Praveen Kumar" 
                         className="w-full h-full object-cover"
                       />
                     </div>
                     <div>
-                      <p className="font-medium">Amgoth Praveen</p>
+                      <p className="font-medium">Praveen Kumar</p>
                       <p className="text-sm opacity-90">Founder & CEO</p>
                     </div>
                   </div>
