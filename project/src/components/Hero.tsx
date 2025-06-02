@@ -1,3 +1,4 @@
+```jsx
 import React from 'react';
 import { Truck, Package, Clock, Shield } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -18,6 +19,18 @@ const Hero: React.FC = () => {
               Driven by Safety. Delivered with Speed.<br />
               We deliver whatever you need at the lowest cost.
             </p>
+            {/* Adding the Founder section here */}
+            <div className="founder flex items-center mb-8">
+              <img 
+                src="/founder.png" 
+                alt="Praveen Kumar, Founder & CEO" 
+                className="w-16 h-16 rounded-full mr-4 object-cover" 
+              />
+              <div>
+                <p className="text-lg font-medium">Praveen Kumar</p>
+                <p className="text-sm text-primary-light">Founder & CEO</p>
+              </div>
+            </div>
             <div className="flex flex-wrap gap-4">
               <a 
                 href="#book" 
