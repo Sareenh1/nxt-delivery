@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/Logo.png" 
+                src="/logo.png" 
                 alt="NXT Delivery Logo" 
                 className="h-6 w-6 mr-2"
               />
