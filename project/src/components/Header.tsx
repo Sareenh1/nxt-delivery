@@ -31,7 +31,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/Logo.png" 
+            src="/logo.png" 
             alt="NXT Delivery Logo" 
             className="h-7 w-7 mr-2"
           />
