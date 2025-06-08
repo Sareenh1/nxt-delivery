@@ -1,5 +1,5 @@
 import React from 'react';
-import { Package, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +8,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <Package className="text-primary h-6 w-6 mr-2" />
+              <img 
+                src="/Logo .png" 
+                alt="NXT Delivery Logo" 
+                className="h-6 w-6 mr-2"
+              />
               <span className="text-xl font-semibold">NXT Delivery</span>
             </div>
             <p className="text-gray-400 mb-6">

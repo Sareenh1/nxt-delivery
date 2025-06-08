@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Package } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Header: React.FC = () => {
@@ -27,10 +27,14 @@ const Header: React.FC = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-    >
-      <div className="container-custom flex justify-between items-center">
+    > 
+      <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Package className="text-primary-dark h-7 w-7 mr-2" />
+          <img 
+            src="/Logo .png" 
+            alt="NXT Delivery Logo" 
+            className="h-7 w-7 mr-2"
+          />
           <span className="text-xl font-semibold text-secondary">NXT Delivery</span>
         </div>
 
