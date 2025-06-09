@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { PackageCheck, MapPin, ShoppingBag, Weight, Send } from 'lucide-react';
 import { motion } from 'framer-motion';
-
+import founder from "../../../nxt-delivery/founder.png"
 const DeliveryForm: React.FC = () => {
   const [formData, setFormData] = useState({
     from: '',
@@ -73,9 +73,9 @@ const DeliveryForm: React.FC = () => {
                 <div className="mb-8">
                   <h4 className="font-medium text-lg mb-4 border-b border-white/20 pb-2">Our Founder</h4>
                   <div className="flex items-center">
-                    <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-primary mr-4">
+                    <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-primary mr-4">
                       <img 
-                        src="/nxt-delivery/founder.png" 
+                      src={founder} 
                         alt="Praveen Kumar" 
                         className="w-full h-full object-cover"
                       />
