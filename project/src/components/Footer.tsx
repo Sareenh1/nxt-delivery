@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
-
+import logo from "../../../project/public/logo.png"
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/logo.png" 
+                src={logo} 
                 alt="NXT Delivery Logo" 
                 className="h-6 w-6 mr-2"
               />
